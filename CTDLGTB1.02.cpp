@@ -13,15 +13,15 @@ float Tong(float x,int n)
 
 int main()
 {
-    int n, S;
+    int n;
     float x;
     printf("\Nhap n = ");
 	scanf("%d", &n);
     printf("\Nhap x = ");
 	scanf("%f", &x);
 
-    S = Tong(x,n);
-    printf("S = %d", S);
+    
+    printf("S = %f", Tong(x,n));
 
     getch();
     return 0;
